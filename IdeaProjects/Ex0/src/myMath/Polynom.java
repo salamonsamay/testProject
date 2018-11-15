@@ -67,6 +67,7 @@ public class Polynom implements Polynom_able{
             while (it.hasNext())
                 add(it.next()) ;
         }
+
     }
 
     /**
@@ -154,7 +155,6 @@ public class Polynom implements Polynom_able{
                 return false;
             Iterator<Monom> it=iteretor();
             Iterator<Monom> it2=((Polynom) p1).iteretor();
-
             while (it.hasNext()){
                 if(it.next().equals(it2.next())==false)
                     return false;

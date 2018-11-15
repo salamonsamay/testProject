@@ -1,10 +1,7 @@
 import myMath.Monom;
 import myMath.Polynom;
 import myMath.Polynom_able;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
-
 import java.util.Iterator;
 
 import static org.junit.Assert.*;

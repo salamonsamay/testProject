@@ -61,7 +61,7 @@ public class Monom  implements function {
 
     /**
      * test if the monom are equal by comper the coefficient and power
-     * @param m the monom we comper to this
+     * @param obj the monom we comper to this
      * @return  true if the monoms are equal
      */
     public boolean equals(Object obj){
